@@ -22,8 +22,7 @@ from twilio.rest import Client
 '''
 
 # Twilio account information:
-accountSID = 'AC5eb66b40b58e1fd7e2b9ee75b61605dd'
-authToken  = 'ac13f49a288febe5e8c94db66ae9ba16'
+
 twilioCli = Client(accountSID, authToken)
 myTwilioNumber = '+19284278564'
 
