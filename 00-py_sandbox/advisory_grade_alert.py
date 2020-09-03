@@ -22,10 +22,10 @@ from twilio.rest import Client
 '''
 
 # Twilio account information:
-accountSID = 
-authToken  = 
+accountSID = ####################
+authToken  = ####################
 twilioCli = Client(accountSID, authToken)
-myTwilioNumber = '+19284278564'
+myTwilioNumber = ############
 
 
 # creating a student class:
@@ -111,15 +111,11 @@ def main():
     if answer == 'n':
         main()
 
+# test objects:
+Jack_Padalino = Students('Jack Padalino','Jack','Mr. Padalino','220502496',['############],['@@@@@@@@@gmail.com'],"")
 
 
-
-
-
-
-test_list = [Jack_Padalino]
-
-
+## For privary issues all other objects have been removed that contained names and contact information ##
 
 
 
@@ -154,6 +150,6 @@ run EZGmail and use the web driver
 - To send messaes with Twilio doesn't require the carrier name, but EZGmail does
 - Twilio cannot send messages to email accounts
 
-Here is the original list of student objects with the cell phone carriers with their phone numbers:
 
-#
+
+'''
