@@ -22,7 +22,8 @@ from twilio.rest import Client
 '''
 
 # Twilio account information:
-
+accountSID = 
+authToken  = 
 twilioCli = Client(accountSID, authToken)
 myTwilioNumber = '+19284278564'
 
@@ -114,49 +115,7 @@ def main():
 
 
 
-# test objects:
-Jack_Padalino = Students('Jack Padalino','Jack','Mr. Padalino','220502496',['+15858804798'],['pada0867@gmail.com'],"")
-Diego_Silva = Students('Diego Silva','Diego','Mr. Silva','240305698',['+15858804798'],['pada0867@gmail.com'],"")
-Madelyn_Padalino = Students('Madelyn Padalino','Madelyn','Ms. Padalino','223102088',['+15858804798'],['pada0867@gmail.com'],"")
-Rebecca_Grande = Students('Rebecca_Grande','Rebecca','Ms. Grande','218036929',['+15858804798'],['pada0867@gmail.com'],"")
 
-# student objects:
-Robert_Baez = Students('Robert Baez','Robert','Ms. Abreu','220502496',['+16466496784'],[],"")
-Charlenys_Bautista = Students('Charlenys Bautista','Charlenys','Ms. Almanzar','240305698',['+13473314832'],[],"")
-Jaileen_Bautista = Students('Jaileen Bautista','Jaileen','','223102088',['+13472097128'],['DELAROSADENNY72@GMAIL.COM'],"")
-Zion_Brisbane = Students('Zion Brisbane','Zion','Ms.Brisbane','218036929',['+13478548663'],['mia.brisbane@gmail.com'],"")
-Jailyn_Davila = Students('Jailyn Davila','Jailyn','Mr. Davila','222536807',['+18454645118'],['righthookho@icloud.com'],"")
-Ernest_Fields = Students('Ernest Fields','Ernest','Ms. Jones','220054886',['+19174028800','+16463854934'],[],"")
-Marianny_Hernandez = Students('Marianny Hernandez','Marianny','Ms. Hernandez','222459315',['+13478336279'],[],"")
-Aidan_Manzano = Students('Aidan Manzano','Aidan','Ms. Manzano','223162801',['+16319650455'],['smanzano4@aol.com'],"")
-Tracy_Mayorga_Jaramillo = Students('Tracy Mayorga Jaramillo','Tracy','Ms. Jaramillo','221962285',['+16462941124'],[],"")
-Nathaly_Ramirez = Students('Nathaly Ramirez','Nathaly','Ms. Ramirez','203009865',[],[],"")
-Yandel_Reynoso = Students('Yandel Reynoso','Yandel','Ms. Vasquez','223160730',['+13478291617','merymvasquez@yahoo.com'],[],"")
-Francisco_Rosario = Students('Francisco Rosario','Francisco','Ms. Martinez','223469933',['+16463207735'],['martinezjackie28@yahoo.com'],"")
-Fode_Sissoko = Students('Fode Sissoko','Fode','Ms. Konare','220444244',['+16463190403'],[],"")
-David_Tatis = Students('David Tatis','David','Mr. and Ms. Tatis','223173436',['+13478275937'],[],"")
-Kayla_Tavares = Students('Kayla Tavares','Kayla','Ms. Baret','224006593',['+19294347056'],[],"")
-Aaron_Thornton = Students('Aaron Thornton','Aaron','Ms. Andujar','220645360',['+13473170677'],['loveandujar@gmail.com'],"")
-Jerry_Valdes = Students('Jerry Valdes','Jerry','Ms. Principal','220600506',['+19176312463'],[],"")
-
-# list of student objects:
-student_list = [Robert_Baez,
-               Charlenys_Bautista,
-               Jaileen_Bautista,
-               Zion_Brisbane,
-               Jailyn_Davila,
-               Ernest_Fields,
-               Marianny_Hernandez,
-               Aidan_Manzano,
-               Tracy_Mayorga_Jaramillo,
-               Nathaly_Ramirez,
-               Yandel_Reynoso,
-               Francisco_Rosario,
-               Fode_Sissoko,
-               David_Tatis,
-               Kayla_Tavares,
-               Aaron_Thornton,
-               Jerry_Valdes]
 
 test_list = [Jack_Padalino]
 
@@ -197,26 +156,4 @@ run EZGmail and use the web driver
 
 Here is the original list of student objects with the cell phone carriers with their phone numbers:
 
-# test objects:
-Jack_Padalino = Students('Jack Padalino','Jack','Mr. Padalino','220502496',['+15858804798@vtext.com'],['pada0867@gmail.com'],"")
-
-# student objects:
-Robert_Baez = Students('Robert Baez','Robert','Ms. Abreu','220502496',[],[],"")
-Charlenys_Bautista = Students('Charlenys Bautista','Charlenys','Ms. Almanzar','240305698',['+13473314832@tmomail.net'],[],"")
-Jaileen_Bautista = Students('Jaileen Bautista','Jaileen','','223102088',[],[],"")
-Zion_Brisbane = Students('Zion Brisbane','Zion','Ms.Brisbane','218036929',['+13478548663@tmomail.net'],['mia.brisbane@gmail.com'],"")
-Jailyn_Davila = Students('Jailyn Davila','Jailyn','Mr. Davila','222536807',['+18454645118@tmomail.net'],['righthookho@icloud.com'],"")
-Ernest_Fields = Students('Ernest Fields','Ernest','Ms. Jones','220054886',[],[],"")
-Marianny_Hernandez = Students('Marianny Hernandez','Marianny','Ms. Hernandez','222459315',['+13478336279@smtext.com'],[],"")
-Aidan_Manzano = Students('Aidan Manzano','Aidan','Ms. Manzano','223162801',['+16319650455@tmomail.net'],['smanzano4@aol.com'],"")
-Tracy_Mayorga_Jaramillo = Students('Tracy Mayorga Jaramillo','Tracy','Ms. Jaramillo','221962285',[],[],"")
-Nathaly_Ramirez = Students('Nathaly Ramirez','Nathaly','Ms. Ramirez','203009865',[],[],"")
-Yandel_Reynoso = Students('Yandel Reynoso','Yandel','Ms. Vasquez','223160730',['+13478291617@tmomail.net','merymvasquez@yahoo.com'],[],"")
-Francisco_Rosario = Students('Francisco Rosario','Francisco','Ms. Martinez','223469933',['+16463207735@tmomail.net'],['martinezjackie28@yahoo.com'],"")
-Fode_Sissoko = Students('Fode Sissoko','Fode','Ms. Konare','220444244',[],[],"")
-David_Tatis = Students('David Tatis','David','Ms. Tatis','223173436',[],[],"")
-Kayla_Tavares = Students('Kayla Tavares','Kayla','Ms. Baret','224006593',[],[],"")
-Aaron_Thornton = Students('Aaron Thornton','Aaron','Ms. Andujar','220645360',['+13473170677@sms.myboostmobile.com'],['loveandujar@gmail.com'],"")
-Jerry_Valdes = Students('Jerry Valdes','Jerry','Ms. Principal','220600506',['+19176312463@tmomail.net'],[],"")
-
-'''
+#
