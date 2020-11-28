@@ -1,0 +1,43 @@
+
+<!--Notes-->
+<!--
+
+- made header tags sequential (h1,h2,h3)
+- added a language html tags
+- added alt html tag to Fakegrimlock image
+- added label codes and ID attributrs to each input 
+
+-->
+
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title> LOGIN PAGE </title>
+  </head>
+
+  <body>
+    <h1>
+    Welcome, Travelers of the Intertoobz!
+    </h1>
+
+	<br>
+	<a href="http://fakegrimlock.com/">
+    	<img alt="Fakegrimlock image" src="static/fakegrimlock_podium.jpg" width="300" height="300">
+	</a>
+	<br>
+
+<h2>
+Enter your username below to proceed.
+</h2>
+    <form action="/auth">
+      <label for="username">Enter username:</label>
+      <input type="text" name="username" id="username">
+      <label for="sub1">Click to submit</label>
+      <input type="submit" name="sub1" id="sub1">
+    </form>
+     <br>
+  </body>
+
+</html>
