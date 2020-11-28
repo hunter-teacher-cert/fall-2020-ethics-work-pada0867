@@ -1,4 +1,4 @@
-# Presto_Seato (plane seating algorithm)
+# Mr. Jerry Manderz (Gerrymandering algorithm)
 by Jack Padalino and Daniel Moscoe
 
 -----
