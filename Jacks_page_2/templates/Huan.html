@@ -12,7 +12,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/home">JP&HW</a>
+  <a class="navbar-brand" href="/">JPHW</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -20,10 +20,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="/about">About <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/About">About us <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,23 +34,13 @@
           <a class="dropdown-item" href="/Huan">Huan Wang</a>
         </div>
       </li>
-      <!--
-      <li class="nav-item active" method="POST" action="/logout">
-        <a class="nav-link" href="/logout">Sign out <span class="sr-only">(current)</span></a>
-        <input type="submit" name="logout" value="sign out">
-      </li>
-      -->
-
-      <form style="text-align:right;" method="POST" action="/logout">
-        <input type="submit" name="logout" value="sign out">
-      </form>
     </ul>
   </div>
 </nav>
 
     <div class="containter">
-      <h1 style="padding-left:50px;padding-top:25px">About us</h1>
-      <p1 style="padding-left:50px;padding-top:50px">We make it do what it do.</p1>
+      <h1 style="padding-left:50px;padding-top:25px">{{ name }}</h1>
+      <p1 style="padding-left:50px;padding-top:25px">{{ about_me }}</p1>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 

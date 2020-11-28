@@ -82,10 +82,25 @@ if __name__ == '__main__':
     flashy.debug = True
     flashy.run()
 
-@flashy.route('/Home')
-def home():
+@flashy.route('/home')
+def Home():
     title = "Welcome"
     return render_template('home.html',title = title)
+
+'''
+@flashy.route('/larger_font')
+def Home_larger_font():
+    return redirect( url_for('Home_larger_font') )
+'''
+@flashy.route('/home_larger_font')
+def Home_larger_font():
+    title = "Welcome"
+    return render_template('home_larger_font.html',title = title)
+'''
+@flashy.route('/home_smaller_font')
+def Home_smaller_font():
+    return redirect( url_for('home') )
+'''
 
 @flashy.route('/Jack')
 def Jack():
@@ -101,7 +116,7 @@ def Huan():
     about_me = 'Hi! My name is {} and I teach Computer Science. I am also taking classes at Hunter College to learn how to be a better CS teacher.'.format(name)
     return render_template('Huan.html',name = name, title = title, about_me = about_me)
 
-@flashy.route('/About')
+@flashy.route('/about')
 def About():
     title = "About us"
-    return render_template('About.html', title = title)
+    return render_template('about.html', title = title)

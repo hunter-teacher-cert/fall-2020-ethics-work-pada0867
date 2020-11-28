@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> {{ title }} </title>
+  </head>
+
+  <body>
+
+    {# init collection var #}
+    {% set msgs = get_flashed_messages() %}
+
+    {# display all flash messages #}
+
+    {% for msg in msgs %}
+
+    <center>
+      <h3> {{ msg }} </h3>
+    </center>
+
+    {% endfor %}
+
+    {% block body %}
+    {% endblock %}
+
+  </body>
+
+</html>

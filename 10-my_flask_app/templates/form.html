@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body %}
+<!--form style="padding-left:50px;padding-top:25px" method="POST" action="/auth">-->
+<form style="text-align:center;padding-top:50px;" method="POST" action="/auth">
+  Username:
+  <input type="text" name="input_user">
+  <br>
+  Password:
+  <input type="text" name="input_pw">
+  <br>
+  <input type="submit" name="submit">
+  <br>
+</form>
+
+{% endblock %}
